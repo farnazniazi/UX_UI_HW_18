@@ -1,0 +1,186 @@
+.inline-block{
+
+ display: inline-block;
+ vertical-align: top ;
+
+}
+.logo {
+
+    background-color: #E5DEEB;
+    width: 100%;
+    padding: 1%;
+    text-align: left;
+}
+nav {
+    background-color: #E5DEEB;
+    width: 100%;
+    padding: 1%;
+}
+ul {
+    width: auto;
+    text-align: right;
+}
+nav li {
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    padding: 20px;
+  }
+
+.heroImg {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: #E5DEEB;
+    height: 800px;
+    padding: 0px;
+    
+}
+.heroImg > div {
+   
+    text-align: left;
+    width: 600px;
+   margin-block-start: 50px;
+    
+  }
+.heroImg h1{
+   font-family: 'Barlow Semi Condensed', sans-serif;
+   font-size: 50px;
+   font-weight: bold;
+}
+.heroImg h2{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+ }
+ .heroImg p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    
+ }
+ .content button{
+    align-content: center;
+ }
+.content {
+    width: 300px;
+    margin: 0 auto;
+}
+footer {
+    background-color: #E5DEEB;
+    padding: 5%;
+    margin: auto;
+    text-align: center;
+}
+footer h3 {
+    font-size: 36px;
+    font-family: 'Barlow', sans-serif;
+}
+footer ul {
+        display: inline-block;
+        vertical-align: top ;
+        padding: 10px;
+       
+}
+footer li {
+    display: inline-block;
+    padding: 10px;
+    align-content: center;
+  }
+
+  footer p{
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+
+  }
+  .mySkills h1 {
+    font-family: 'Barlow', sans-serif, bold;
+    text-align: center;
+    font-size:30px;
+
+  }
+  
+ 
+  .flexContainer {
+    display: flex;
+    background-color: #ffffff;
+    
+  }
+  .flexContainer div {
+    font-family: 'Barlow', sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    width: 50%;
+    margin: 50px;
+    padding: 20px;
+    font-size:24px;
+    
+  }
+  
+  .myWork h1 {
+    font-family: 'Barlow', sans-serif, bold;
+    text-align: center;
+    font-size:36px;
+  }
+  .myWork {
+    background-color: #E5DEEB;
+    padding: 2%;
+    margin: auto;
+
+  }
+
+  .workGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+  .workGrid > div {
+    align-content: center;
+    text-align: center;
+    width: 500px;
+    padding: 50px 50px;
+    font-size: 30px;
+    font-family: 'Barlow', sans-serif,;
+  }
+  .myWork h2 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+
+  .myWork p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    text-align: left;
+  }
+
+  button {
+    background-color: #F2F2F2;
+    border: none;
+    color: #333333;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Barlow', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  @media (max-width: 600px) {
+    .flexContainer {
+    flex-direction: column;
+    }
+}
+  @media (max-width: 600px) {
+      .workGrid{
+        float: none;
+        width: 100%; 
+      }
+  }
