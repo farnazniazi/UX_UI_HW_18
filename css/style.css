@@ -1,5 +1,5 @@
 * {
-  
+  margin: 0px;
   box-sizing: border-box;
 }
 nav{
@@ -196,13 +196,18 @@ footer li {
   }
   .heroImg {
     grid-template-columns: auto;
-    grid-template-rows: 1fr;
-   justify-content: space-evenly;
-   align-items: center;
+   grid-template-rows: auto;
+   height:max-content;
+   padding: 100px;
+  
    grid-template-areas:
    "photo"
    "content"
    ;
+  }
+  .heroImg div {
+   align-content: left;
+  width: 90%
   }
   
   .workGrid {
